@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/index-img/sl_flag.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>MOE-Ministry of Education Sri Lanka</title>
+	<meta name="desciption" content="">
+	<meta name="author" content="yasith/sahan/niran/supun">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="subjects/subjects.css">
+	<!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrp link -->
+    <!-- font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- font link  -->
+     <!-- icon links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- icon links -->
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/MOE.jpeg"alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="subjects/IT.html" target="_blank">Courses</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="https://chatgpt.com" target="_blank">AI</a></li>
+			</ul>
+
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+
+			<a class="get-started" href="log.php">Get Started</a>
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>An Investment in 
+					<span>knowledge</span> pays the
+					best interest</p>
+				<h5>Education is a powerful tool that unlocks potential. It equips us with knowledge and critical thinking skills to navigate challenges and contribute meaningfully to society.</h5>
+				<button id="btn"><a href="#"><span>See more</span></a></button>
+			</div>
+			<div class="svg-image">
+				<img src="images/index-img/home-main.png" alt="svg">
+			</div>
+		</div>
+		
+	</header>
+
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/index-img/about1.jpeg">
+				</div>
+				<div class="side-text">
+					<h2>What you think about us ?</h2>
+					<p>Sri Lanka prioritizes education, offering free and compulsory schooling from ages 5-14. This widespread system boasts a high literacy rate. However, resource distribution can be uneven across regions. <br><br> While exams are important, there's a push for a more well-rounded approach that cultivates critical thinking and skills alongside knowledge acquisition. The future of education in Sri Lanka is likely to embrace technology for a more personalized and accessible learning experience.</p>
+				</div>
+		</div>
+	</div>
+    <br><br>
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Services</p></center>
+		</div>
+		<a href="https://www.doenets.lk/"><div class="s-card"><img src="images/icon/SL-doenets.png"><p>Department of Examinations</p></div></a>
+		<a href="https://www.nie.ac.lk/"><div class="s-card"><img src="images/icon/NIE.png"><p>National Institute of Education</p></div></a>
+		<a href="https://mohe.gov.lk/index.php?lang=en"><div class="s-card"><img src="images/icon/mohe.png"><p>Ministry of Higher Education</p></div></a>
+		<a href="https://www.tvec.gov.lk/"><div class="s-card"><img src="images/icon/tvec.png"><p>Tertiary & Vocational Education Commission</p></div></a>
+		<a href="http://www.edupub.gov.lk/"><div class="s-card"><img src="images/icon/epd.png"><p>Education Publication Department</p></div></a>
+		<a href="https://www.piriven.gov.lk/piriven/"><div class="s-card"><img src="images/icon/piriven.png"><p>Piriven and Bhikkhu Education</p></div></a>
+		
+	</div>
+
+
+<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #FA4B37, #dfd327); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="10"><div class="marqu">“The more that you read, the more things you will know. The more that you learn, the more places you'll go.”</div></marquee>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="images/icon/footer-moe.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Copyright © SLTC - 2024 Created By Yasith Wijesuriya, Sahan Thejana , Niran Wijebandara , and Shehan supun All Rights Reserved.</p>
+				
+			</div>
+			
+		</div>
+	</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
